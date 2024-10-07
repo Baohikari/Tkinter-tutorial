@@ -5,7 +5,7 @@ window = Tk()
 window.geometry("1200x1200")
 window.config(background="black")
 photo = PhotoImage(file='panda_logo.png')
-label = Label(window, 
+label = Label(window,  #note: the first argument here is which container contains this widget
               text="Hello World", 
               font=('Arial', 40, 'bold'), 
               fg='#4DA1E8', 
